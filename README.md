@@ -1,5 +1,15 @@
 # PHiSeg Code
 
+## Pytorch Implementation (Fork)
+
+Pytorch implementation of PHiSeg model architecture with training script 
+and utils. Please highlight any potential discrepancies between the two implementations.
+Tested on data from [Confident Head Circumference Measurement from Ultrasound 
+with Real-time Feedback for Sonographers](https://arxiv.org/abs/1908.02582) from [MICCAI 2019](https://www.miccai2019.org/),
+results for PHiSeg not yet reported online. You will need to install your own pytorch distribution and fill in the relevant 
+paths to run the training script. To use this code you will need to create your own data loaders and augmentation procudures.
+
+## Tensorflow Implementation (Original)
 Public tensorflow implementation for our paper [PHiSeg: Capturing Uncertainty in 
 Medical Image Segmentation](https://arxiv.org/abs/1906.04045) method, 
 which was accepted for presentation at [MICCAI 2019](https://www.miccai2019.org/). 
